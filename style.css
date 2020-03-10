@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.fb-post {
+    height: 700px;
+    width: 550px;
+    background-color: white;
+}
+
+/* Begin header styling */
+
+.post-header{
+    border: blue solid 1px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-title-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-pic {
+    border: blue solid 1px;
+}
+
+.user-title-info {
+    border: blue solid 1px;
+}
+
+.user-title {
+    border: blue solid 1px;
+}
+
+ .post-info {
+    border: blue solid 1px;
+ }
+
+ .date {
+    border: blue solid 1px;
+ }
+
+ .menu-dots {
+    border: blue solid 1px;
+    margin-right: 10px;
+    font-size: 30px;
+ }
+
+/* End header styling */
+
+/* Begin main section styling */
+
+.main-section {
+    padding: 0 15px;
+    border: red 1px solid;
+    height: 500px;
+}
+
+.main-image {
+    height: 100%;
+    width: 100%;
+    border: red 1px solid;
+}
+
+.image-info-container {
+    padding: 0 30px;
+    background-color: white;
+    border: blue solid 1px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-info {
+    border: solid blue 1px;
+}
+
+.image-title {
+    border: solid blue 1px;
+}
+
+.like-button {
+    margin: auto 0;
+    height: 30px;
+}
+
+/* End main section styling */
+
+/* Begin footer styling */
+
+.post-footer {
+    height: 50px;
+    background-color: white;
+    border: solid 1px hotpink;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-action-buttons {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    border: green 1px solid;
+}
+
+.action-buttons {
+    margin: 0 15px;
+}
+
+.action-button-icon {
+    border: solid green 1px;
+    margin-right: 3px
+}
+/* End footer styling */
